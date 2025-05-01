@@ -2,20 +2,24 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
     <>
-      <div className="container ">
-        <div className="row">
-          <div className="col" style={{ width: "100%" }}>
-            <h1>Navbar</h1>
-          </div>
+      <div className="navbar-container">
+        <div className="col">
+          <NavBar />
         </div>
-        <div className="row">
-          <div className="col" style={{ width: "100%" }}>
-            <h1>Content</h1>
-          </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <h1>Space Drifter</h1>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <h1>Content</h1>
         </div>
       </div>
     </>
