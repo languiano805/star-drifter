@@ -1,7 +1,6 @@
 .hstack {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 1rem;
     background-color: black;
 }
@@ -12,5 +11,7 @@
     border-radius: 100px 0px 0px 100px;
     width: 70%;
     color: white;
+    position: fixed;
+    right: 0;
 
 }

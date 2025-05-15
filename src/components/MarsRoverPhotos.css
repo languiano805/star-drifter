@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.mars-rover-photos-container {
+    flex-direction: column;
+    width: 100%;
+   padding-top: 2rem;
+   background-color: aqua;
+}
+
+.mars-rover-photos-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 3rem;
+    position: relative;
+
+}
+
+.mars-rover-photos-content {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;;
+}
+
+.mars-rover-photo-image {
+   flex: 1 1 300px;
+   box-sizing: border-box;
+   height: auto;
+
+}
+
+.mars-rover-photo-card {
+    background-color: red;
+    max-width: 15rem;
+}
+
