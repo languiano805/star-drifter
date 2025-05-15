@@ -1,4 +1,5 @@
 import "./App.css";
+import Asteroids from "./components/Asteroids";
 import MarsRoverPhotos from "./components/MarsRoverPhotos";
 import NavBar from "./components/NavBar/NavBar";
 import PictureOTD from "./components/PictureOTD";
@@ -17,6 +18,7 @@ function App() {
         <div className="content-container" style={{ flex: 1 }}>
           <PictureOTD />
           <MarsRoverPhotos />
+          <Asteroids/>
         </div>
       </div>
     </>
