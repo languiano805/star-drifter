@@ -1,26 +1,19 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
+import PictureOTD from "./components/PictureOTD";
 
 function App() {
   return (
     <>
       <div className="navbar-container">
-        <div className="col">
-          <NavBar />
-        </div>
+        <NavBar />
       </div>
-      <div className="row">
-        <div className="col">
-          <h1>Space Drifter</h1>
-        </div>
+      <div className="title-container">
+        <h1>Space Drifter</h1>
       </div>
-      <div className="row">
-        <div className="col">
-          <h1>Content</h1>
-        </div>
+      <div className="content-container" style={{ flex: 1 }}>
+        <PictureOTD />
       </div>
     </>
   );
