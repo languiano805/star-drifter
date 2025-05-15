@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import PictureOTD from "./components/PictureOTD";
+import Title from "./components/Title";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
           <NavBar />
         </div>
         <div className="title-container">
-          <h1>Space Drifter</h1>
+          <Title />
         </div>
         <div className="content-container" style={{ flex: 1 }}>
           <PictureOTD />
