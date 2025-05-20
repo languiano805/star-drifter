@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.CEO-container {
+    background-color: yellow
+}
+
+.CEO-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: left;
+    font-size: 3rem;
+    position: relative;
+}
