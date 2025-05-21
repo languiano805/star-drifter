@@ -43,11 +43,11 @@ const CloseEarthObjects = () => {
 
   return (
     <div className="CEO-container">
-      <div className="CEO-title text-uppercase ">Astroid Watch</div>
+      <div className="CEO-title text-uppercase ">Near Earth Objects Watch</div>
       <hr />
-      <div className="CEO-content">
-        {ceo.map((object, index) => (
-          <div key={index} className="CEO-card">
+      <div className="CEO-content card">
+        {ceo.slice(0, 10).map((object, index) => (
+          <div key={index} className="CEO-card card-body">
             <div className="CEO-card-title text-uppercase">
               {object.fullname}
             </div>
