@@ -42,7 +42,7 @@ const CloseEarthObjects = () => {
   }, []);
 
   return (
-    <div className="CEO-container">
+    <div className="CEO-container" id="CloseEarthObjects">
       <div className="CEO-title text-uppercase ">Near Earth Objects Watch</div>
       <hr />
       <div className="CEO-content card">

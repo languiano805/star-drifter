@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .CEO-container {
-    background-color: yellow
+    background-color: white;
 }
 
 .CEO-title {
@@ -14,9 +14,10 @@
     position: relative;
 }
 
+
 .card-body
 {
-    background-color: blue;
+    background-color: white;
     border-radius: 0.5rem;
     padding: 1rem;
     margin: 1rem;

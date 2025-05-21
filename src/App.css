@@ -2,17 +2,21 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    background-color:purple;
+    background-color:white;
 }
 
 .navbar-container{
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: red;;
+    background-color: white;
 
 }
 
 .app-container{
-    background-color: blue;
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }

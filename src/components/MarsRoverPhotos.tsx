@@ -31,7 +31,7 @@ const MarsRoverPhotos = () => {
   }, []);
 
   return (
-    <div className="mars-rover-photos-container">
+    <div className="mars-rover-photos-container" id="PhotosFromMars">
       <div className="mars-rover-photos-title text-uppercase">
         Photos from mars
       </div>

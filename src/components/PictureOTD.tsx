@@ -26,9 +26,10 @@ const PictureOTD = () => {
   }, []);
 
   return (
-    <div className="apod-container">
+    <div className="apod-container " id="PictureOTD">
       <div className="apod-title text-uppercase ">
         {apod?.title || "Loading..."}
+        <hr />
       </div>
 
       <div className="apod-content">

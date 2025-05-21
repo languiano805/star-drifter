@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 100%;
    padding-top: 2rem;
-   background-color: aqua;
+   background-color: white;
 }
 
 .mars-rover-photos-title {
@@ -23,7 +23,7 @@
     gap: 1rem;
     flex-wrap: wrap;
     background-color: white;
-    justify-content: center;;
+    justify-content: left;
 }
 
 .mars-rover-photo-image {
@@ -34,7 +34,8 @@
 }
 
 .mars-rover-photo-card {
-    background-color: red;
+    background-color: white;
     max-width: 15rem;
+    border: black 1px solid;
 }
 

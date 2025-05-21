@@ -38,4 +38,6 @@
 .apod-image {
     max-width: 50%;
     height: auto;
+    width: 600px;
+    height: 600px;
 }
