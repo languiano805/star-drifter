@@ -1,4 +1,4 @@
-import React from "react";
+
 import { IoRocketOutline } from "react-icons/io5";
 
 const Logo = () => {

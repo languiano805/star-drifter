@@ -14,7 +14,7 @@ interface MarsPhoto {
 
 const MarsRoverPhotos = () => {
   const [photos, setPhotos] = useState<MarsPhoto[]>([]);
-  const [error, setError] = useState("");
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     apiClient
@@ -36,7 +36,11 @@ const MarsRoverPhotos = () => {
         Photos from mars
       </div>
       <hr className="mars-rover-photos-divider" />
-
+      {error && (
+        <div className="mars-rover-photos-error">
+          {error}
+        </div>
+      )}
       <div className="mars-rover-photos-content">
         {photos.map((photo: MarsPhoto) => (
           <div key={photo.id} className="mars-rover-photo-card">
@@ -61,3 +65,5 @@ const MarsRoverPhotos = () => {
 };
 
 export default MarsRoverPhotos;
+
+

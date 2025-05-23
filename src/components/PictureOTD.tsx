@@ -11,16 +11,15 @@ interface Apod {
 
 const PictureOTD = () => {
   const [apod, setApod] = useState<Apod | null>(null);
-  const [error, setError] = useState("");
+
 
   useEffect(() => {
     apiClient
       .get<Apod>("/planetary/apod")
       .then((response) => {
-        return setApod(response.data);
+        setApod(response.data);
       })
       .catch((error) => {
-        setError("Failed to fetch the Astronomy Picture of the Day.");
         console.error("Error fetching APOD:", error);
       });
   }, []);
